@@ -94,7 +94,32 @@ footer{
   padding: 5px;
 }
 
+.search-bar {
+  width: 500px;
+  margin: 20px auto;
+}
 
+.search-input {
+  width: calc(100% - 70px); 
+  padding: 8px;
+  font-size: 16px;
+}
+
+.search-button {
+  margin-top: 10px;
+  width: 100px;
+  padding: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-results {
+  margin-top: 50px;
+  display: none;
+  font-size: 1.5em;
+  width: 100%;
+  
+}
 
 
       
